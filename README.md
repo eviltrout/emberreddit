@@ -1,19 +1,25 @@
-### Ember Reddit
+# Emberreddit
 
-This is the repository of code to go with the [Ember without Ember Data](https://www.youtube.com/watch?v=7twifrxOTQY)
-screencast.
+This README outlines the details of collaborating on this Ember application.
 
-If you're looking for the older, more obsolete emberreddit, [go here](https://github.com/eviltrout/emberreddit-old).
-It's archived for posterity!
+## Installation
 
-### MIT License
+* `git clone` this repository
+* `npm install`
+* `bower install`
 
-Copyright (c) 2013 Robin Ward
+## Running
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+* `ember server`
+* Visit your app at http://localhost:4200.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Running Tests
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+* `ember test`
+* `ember test --server`
 
+## Building
 
+* `ember build`
+
+For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).

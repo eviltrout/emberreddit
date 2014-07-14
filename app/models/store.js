@@ -1,3 +1,5 @@
+import Ember from 'ember';
+
 var cache = {};
 
 export default Ember.Object.extend({

@@ -1,3 +1,5 @@
+import Ember from 'ember';
+
 /* globals requirejs,require */
 
 // TODO: load based on params

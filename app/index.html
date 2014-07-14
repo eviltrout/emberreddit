@@ -14,11 +14,13 @@
   </head>
   <body>
     <script>
-      window.ENV = {{ENV}};
+      window.EmberredditENV = {{ENV}};
+      window.EmberENV = window.EmberredditENV.EmberENV;
     </script>
+    <script src="assets/vendor.js"></script>
     <script src="assets/emberreddit.js"></script>
     <script>
-      window.Emberreddit = require('emberreddit/app')['default'].create(ENV.APP);
+      window.Emberreddit = require('emberreddit/app')['default'].create(EmberredditENV.APP);
     </script>
   </body>
 </html>
