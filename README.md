@@ -1,6 +1,8 @@
 # Emberreddit
 
-This README outlines the details of collaborating on this Ember application.
+This application goes along with the [Ember without Ember Data](https://www.youtube.com/watch?v=7twifrxOTQY)
+screencast. It's been updated since the screencast to the latest version of ember-cli but almost all the
+concepts are the same.
 
 ## Installation
 
@@ -23,3 +25,7 @@ This README outlines the details of collaborating on this Ember application.
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## License
+
+MIT
