@@ -1,8 +1,6 @@
-/* global require */
-
-var Application = require('emberreddit/app')['default'];
-var Router = require('emberreddit/router')['default'];
 import Ember from 'ember';
+import Application from 'emberreddit/app';
+import Router from 'emberreddit/router';
 
 export default function startApp(attrs) {
   var App;
